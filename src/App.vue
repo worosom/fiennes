@@ -41,43 +41,43 @@ export default {
   text-align: left;
   color: #2c3e50;
   font-size: 100%;
-  column-count: 1;
+  column-count: 2;
   column-gap: 1rem;
 }
 
 @media (min-width: 140px) {
   #app {
-    column-count: 2;
+    column-count: 3;
   }
 }
 
 @media (min-width: 280px) {
   #app {
-    column-count: 3;
+    column-count: 4;
   }
 }
 
 @media (min-width: 375px) {
   #app {
-    column-count: 4;
+    column-count: 5;
   }
 }
 
 @media (min-width: 700px) {
   #app {
-    column-count: 5;
+    column-count: 6;
   }
 }
 
 @media (min-width: 1024px) {
   #app {
-    column-count: 6;
+    column-count: 7;
   }
 }
 
 @media (min-width: 1280px) {
   #app {
-    column-count: 7;
+    column-count: 8;
   }
 }
 
@@ -85,5 +85,12 @@ export default {
   margin: 0;
   overflow: hidden;
   white-space: nowrap;
+  cursor: crosshair;
+  text-transform: uppercase;
+  user-select: none;
+}
+
+#app p:hover {
+  color: red;
 }
 </style>
